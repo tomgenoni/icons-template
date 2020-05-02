@@ -1,0 +1,14 @@
+.link,
+.link a {
+    @include atoms(white);
+}
+
+.link-inherit {
+    color: inherit;
+}
+
+.link-external {
+    &:after {
+        content: ' →';
+    }
+}
