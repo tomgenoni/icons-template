@@ -1,5 +1,5 @@
 html {
-    background: $color__white;
+    background: #fffefc;
 }
 
 body {
@@ -9,19 +9,5 @@ body {
     font-weight: 400;
     line-height: 1.6;
     font-size: $f6;
-    color: $color__black-300;
-}
-
-// Background and text color for index page.
-
-.index {
-    background: $color__indigo;
-
-    body {
-        color: $color__white;
-    }
-}
-
-.post {
-    background: $color__gray-200;
+    color: $color__black;
 }
