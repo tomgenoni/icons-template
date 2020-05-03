@@ -7,7 +7,6 @@ import Tabs from "./components/Tabs/";
 import Search from "./components/Search/";
 import List from "./components/List/";
 import Wrap from "./components/Wrap/";
-import { Title, Text } from "./components/Type/";
 
 // Global SCSS
 import "./scss/root.scss";
@@ -17,13 +16,9 @@ function App() {
         <div>
             <Wrap size="wide">
                 <Header />
-                <Title size="1" className="tc">
-                    Notion for startups
-                </Title>
-                <Text>text</Text>
             </Wrap>
-            <Wrap>
-                <Hero />
+            <Wrap size="wide">
+                <Hero className="mb5 mt6" />
                 <Tabs />
                 <Search />
                 <List />

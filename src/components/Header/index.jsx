@@ -4,17 +4,18 @@ import styles from "./index.module.scss";
 function Header() {
     return (
         <header
-            className={`${styles.header} flex justify-between items-center pv3`}
+            className={`${styles.header} flex justify-between items-center pv4`}
         >
             <div>logo</div>
             <div className="flex">
-                <div>item</div>
-                <div className="ml3">item</div>
-                <div className="ml3">item</div>
-                <div className="ml3">item</div>
-                <div className="ml3">item</div>
-                <div className="ml3">item</div>
-                <div className="ml3 pl3 bl b-gray-300">item</div>
+                <div>Product</div>
+                <div className="ml4">Download</div>
+                <div className="ml4">Remote work</div>
+                <div className="ml4">Customers</div>
+                <div className="ml4">Pricing</div>
+                <div className="ml4">Jobs</div>
+                <div className="ml4 pl4 bl b-gray-300">Log in</div>
+                <div className="ml4">Sign in</div>
             </div>
         </header>
     );
