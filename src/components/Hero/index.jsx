@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./index.module.scss";
 
 import { Title, Text } from "../Type/";
+import { ReactComponent as Logo } from "../../assets/img/logo.svg";
 
 function Hero({ className }) {
     return (
@@ -14,6 +15,7 @@ function Hero({ className }) {
                     Get started with templates to help you organize your work
                     and your life.
                 </Text>
+                <Logo style={{ width: "30px" }} title="Notion logo" />
             </div>
             <div className="col-6">
                 <img src="/asset/i/illu.png" alt="" className="w100 -mt3" />

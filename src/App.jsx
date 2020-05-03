@@ -9,7 +9,7 @@ import List from "./components/List/";
 import Wrap from "./components/Wrap/";
 
 // Global SCSS
-import "./scss/root.scss";
+import "./assets/scss/root.scss";
 
 function App() {
     return (
