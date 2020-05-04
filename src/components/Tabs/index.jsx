@@ -1,12 +1,12 @@
 import React from "react";
 
-function Tabs({ activeTab, setActiveTab, data }) {
+function Tabs({ activeTab, setActiveTab, categories }) {
     return (
         <div>
             <button key="key" onClick={() => setActiveTab("All")}>
                 All
             </button>
-            {data.map((category) => (
+            {categories.map((category) => (
                 <button
                     key={category.id}
                     onClick={() => setActiveTab(category.title)}
