@@ -1,0 +1,41 @@
+[{
+        "title": "Remote work",
+        "id": 1,
+        "sections": [{
+            "title": "section-one",
+            "id": 1,
+            "templates": [{
+                "title": "section-one template title 1",
+                "id": 1
+            }, {
+                "title": "section-one template title 2",
+                "id": 2
+            }]
+        }]
+    },
+    {
+        "title": "COVID-19",
+        "id": 2,
+        "sections": [{
+            "title": "section-one",
+            "id": 1,
+            "templates": [{
+                "title": "section-two template title 1",
+                "id": 1
+            }, {
+                "title": "section-two template title 2",
+                "id": 2
+            }]
+        }, {
+            "title": "section-two",
+            "id": 2,
+            "templates": [{
+                "title": "section-two template title 1",
+                "id": 1
+            }, {
+                "title": "section-two template title 2",
+                "id": 2
+            }]
+        }]
+    }
+]

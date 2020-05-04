@@ -1,8 +1,21 @@
 import React from "react";
-import styles from "./index.module.scss";
 
-function Tabs() {
-    return <div className={styles.tabs}>i am the Tabs</div>;
+function Tabs({ activeTab, setActiveTab, data }) {
+    return (
+        <div>
+            <button key="key" onClick={() => setActiveTab("All")}>
+                All
+            </button>
+            {data.map((category) => (
+                <button
+                    key={category.id}
+                    onClick={() => setActiveTab(category.title)}
+                >
+                    {category.title}
+                </button>
+            ))}
+        </div>
+    );
 }
 
 export default Tabs;
