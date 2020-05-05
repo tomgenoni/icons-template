@@ -23,7 +23,7 @@ function Header() {
                 <div className="ml4">Sign in</div>
             </div>
             <div className="l_dn">
-                <Hamburger style={{ width: "22px" }} title="Mobile menu" />
+                <Hamburger style={{ width: "24px" }} title="Mobile menu" />
             </div>
         </header>
     );
