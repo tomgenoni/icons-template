@@ -1,5 +1,19 @@
-$blue: blue;
+@import '../../assets/scss/config.scss';
 
-.list {
-    color: $blue;
+.border {
+    position: relative;
+
+    &:before {
+        content: "";
+        height: 1px;
+        background: $color__gray-300;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+    }
+}
+
+.template {
+    cursor: pointer;
 }

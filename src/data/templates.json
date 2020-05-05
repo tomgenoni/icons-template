@@ -88,15 +88,39 @@
         "secondary": "Teachers"
     }]
 }, {
-    "title": "Design review",
-    "type": "foo",
+    "title": "Cornell notes system",
+    "type": "text",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "Take better notes with this system from the 1940’s.",
+        "long": "In the 1940s, Cornell Professor Walter Pauk developed a new note-taking system to give college students a better way to organize, condense, and intake knowledge. It's proven as an incredibly effective learning tool. Here's how to use it in Notion."
     },
     "tags": [{
-        "primary": "Work",
-        "secondary": "Designers"
+        "primary": "Education",
+        "secondary": "Students"
+    }]
+}, {
+    "title": "Lesson plans",
+    "type": "board",
+    "author": "Notion",
+    "description": {
+        "short": "Orgnaize lessons and keep track of your student’s progress.",
+        "long": "These lesson plans are based on Harvard Business School's Elements of Effective Class Preparation. Keeping lesson plans in a database like this makes it easy to track their status, keep all related notes in one spot, and make progress."
+    },
+    "tags": [{
+        "primary": "Education",
+        "secondary": "Teachers"
+    }]
+}, {
+    "title": "Syllabus",
+    "type": "text",
+    "author": "Notion",
+    "description": {
+        "short": "Provide a quick course overview reference for students.",
+        "long": "Use this template to create a digital syllabus that all your students can easily reference on the web. Notion makes building a web page like this as easy as typing a document. Just replace this sample content with your own assignments, policies, and information. Then click 'Share' and turn on 'Public Access' to publish it to the internet with a dedicated link."
+    },
+    "tags": [{
+        "primary": "Education",
+        "secondary": "Teachers"
     }]
 }]

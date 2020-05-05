@@ -76,10 +76,10 @@ function App() {
                         <Search query={query} handleQuery={handleQuery} />
                     </div>
                 </div>
-                <div className="mb7">
-                    <List data={filteredData} />
-                </div>
             </Wrap>
+            <div className="mb7">
+                <List data={filteredData} />
+            </div>
             <Wrap size="xwide">
                 <hr className="bb b-gray-300 mb6" />
             </Wrap>
