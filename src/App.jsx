@@ -5,6 +5,9 @@ import categories from "./data/categories";
 import templates from "./data/templates";
 import combinedData from "./data/combinedData";
 
+// // Global SCSS
+import "./assets/css/root.css";
+
 // Components
 import Header from "./components/Header/";
 import Hero from "./components/Hero/";
@@ -13,9 +16,6 @@ import Search from "./components/Search/";
 import List from "./components/List/";
 import Wrap from "./components/Wrap/";
 import Footer from "./components/Footer/";
-
-// Global SCSS
-import "./assets/scss/root.scss";
 
 function App() {
     // State ------------------------
