@@ -29,7 +29,7 @@ function List({ data }) {
 
     return (
         <div>
-            {data.map((category) => (
+            {data.map((category, i) => (
                 <div key={category.id} className="mb3">
                     <Wrap size="xwide">
                         <div className="flex mb3">
@@ -45,19 +45,21 @@ function List({ data }) {
                             <div className={`flex-1 ${styles.border}`}></div>
                         </div>
                     </Wrap>
-                    {category.sections.map((section) => (
+                    {category.sections.map((section, i) => (
                         <Wrap size="wide" key={section.id}>
                             <>
                                 {/* Only show a section title if there's at least two the parent category */}
-                                {category.sections.length > 1 && (
-                                    <Title
-                                        className="tc mb3"
-                                        size={6}
-                                        headingLevel={3}
-                                    >
-                                        {section.title}
-                                    </Title>
-                                )}
+                                {category.sections.length > 1 &&
+                                    category.sections[i].templates.length >
+                                        0 && (
+                                        <Title
+                                            className="tc mb3"
+                                            size={6}
+                                            headingLevel={3}
+                                        >
+                                            {section.title}
+                                        </Title>
+                                    )}
                                 <ul className="grid grid-wide">
                                     {section.templates.map((template, i) => (
                                         <li key={i} className="m_col-6 l_col-4">
