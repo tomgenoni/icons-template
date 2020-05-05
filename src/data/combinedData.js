@@ -32,12 +32,7 @@ export default function combinedData(categories, templates) {
                 if (tag.primary === category.title) {
                     category.sections.forEach((templatesItem, i) => {
                         if (tag.secondary === templatesItem.title) {
-                            category.sections[i].templates.push({
-                                title: entry.title,
-                                type: entry.type,
-                                author: entry.author,
-                                description: entry.description,
-                            })
+                            category.sections[i].templates.push(entry)
                         }
                     })
                 }
@@ -45,6 +40,7 @@ export default function combinedData(categories, templates) {
         });
     })
 
+    // Used for debugging
     // data.forEach((category) => {
     //     console.log(category.title);
     //     category.sections.forEach((section) => {

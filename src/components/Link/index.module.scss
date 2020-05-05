@@ -1,0 +1,23 @@
+@import '../../assets/scss/config.scss';
+
+.underline {
+    color: $color__gray;
+    text-decoration: underline;
+}
+
+.hover {
+    color: $color__black;
+    padding: 2px $space__2;
+    border-radius: 3px;
+    transition: background 120ms ease-in 0s;
+
+    &:hover {
+        background: rgba(55, 53, 47, 0.08);
+        transition: background 120ms ease-in 0s;
+    }
+
+    &:active {
+        background: rgba(55, 53, 47, 0.2);
+        transition: background 120ms ease-in 0s;
+    }
+}

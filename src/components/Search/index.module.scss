@@ -1,5 +1,24 @@
-$blue: blue;
+.input {
+    border: none;
+    box-shadow: none;
+    background: #fff;
+    width: 100%;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 4px 10px;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset, rgba(15, 15, 15, 0.1) 0px 1px 1px inset;
+    background: white;
+    cursor: text;
+    height: 36px;
+    margin-right: 8px;
 
-.search {
-    color: $blue;
+    &:focus {
+        outline: none;
+    }
+
+    &:focus-within {
+        box-shadow: rgba(46, 170, 220, 0.7) 0px 0px 0px 1px inset, rgba(46, 170, 220, 0.4) 0px 0px 0px 2px !important;
+    }
 }

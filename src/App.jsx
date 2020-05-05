@@ -12,6 +12,7 @@ import Tabs from "./components/Tabs/";
 import Search from "./components/Search/";
 import List from "./components/List/";
 import Wrap from "./components/Wrap/";
+import Footer from "./components/Footer/";
 
 // Global SCSS
 import "./assets/scss/root.scss";
@@ -58,14 +59,32 @@ function App() {
         <div>
             <Wrap size="wide">
                 <Header />
-                <Hero className="mb5 mt6" />
-                <Tabs
-                    activeTab={activeTab}
-                    setActiveTab={setActiveTab}
-                    categories={categories}
-                />
-                <Search query={query} handleQuery={handleQuery} />
-                <List data={filteredData} />
+                <div className="mb4 mt6">
+                    <Hero
+                        imgPath="/asset/i/illu.png"
+                        title="Notion for inspiration"
+                        subtitle="Get started with templates to help organize your work and your life."
+                    />
+                </div>
+                <div className="l_flex l_items-center l_justify-center mb5">
+                    <Tabs
+                        activeTab={activeTab}
+                        setActiveTab={setActiveTab}
+                        categories={categories}
+                    />
+                    <div className="l_ml6 mt3 l_mt0">
+                        <Search query={query} handleQuery={handleQuery} />
+                    </div>
+                </div>
+                <div className="mb7">
+                    <List data={filteredData} />
+                </div>
+            </Wrap>
+            <Wrap size="xwide">
+                <hr className="bb b-gray-300 mb6" />
+            </Wrap>
+            <Wrap size="wide">
+                <Footer />
             </Wrap>
         </div>
     );

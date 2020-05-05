@@ -1,8 +1,90 @@
-@import '../../assets/scss/core/config.scss';
+@import '../../assets/scss/config.scss';
+@import '../../assets/scss/core/mixin.scss';
 
 .title1 {
-    font-size: 50px;
+    font-size: $f2;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+
+    @include respond-above($break__medium) {
+        font-size: $f1;
+        line-height: 1;
+    }
+}
+
+.title2 {
+    font-size: $f2;
     line-height: 1;
     font-weight: 700;
     letter-spacing: -0.01em;
+}
+
+.title3 {
+    font-size: $f3;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.title4 {
+    font-size: $f4;
+    font-weight: 700;
+}
+
+.title5 {
+    font-size: $f5;
+    font-weight: 700;
+}
+
+.title6 {
+    font-size: $f6;
+    font-weight: 700;
+}
+
+.title7 {
+    font-size: $f7;
+    font-weight: 700;
+}
+
+
+
+.text1 {
+    font-size: $f6;
+
+    @include respond-above($break__medium) {
+        font-size: $f5;
+    }
+}
+
+
+.text2 {
+    font-size: $f2;
+}
+
+.text3 {
+    font-size: $f3;
+}
+
+.text4 {
+    font-size: $f4;
+}
+
+.text5 {
+    font-size: $f5;
+}
+
+.text6 {
+    font-size: $f6;
+}
+
+.text7 {
+    font-size: $f7;
+}
+
+.text8 {
+    font-size: $f8;
+}
+
+.text8 {
+    font-size: $f9;
 }

@@ -1,19 +1,25 @@
 [{
     "title": "Remote",
+    "emoji": "🏝",
     "id": 0
 }, {
     "title": "COVID-19",
+    "emoji": "🏥",
     "id": 1
 }, {
     "title": "Work",
+    "emoji": "📎",
     "id": 2
 }, {
     "title": "Home",
+    "emoji": "🛋",
     "id": 3
 }, {
     "title": "Life",
+    "emoji": "☀",
     "id": 4
 }, {
     "title": "Education",
+    "emoji": "🎒",
     "id": 5
 }]

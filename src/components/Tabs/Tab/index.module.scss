@@ -1,0 +1,30 @@
+@import '../../../assets/scss/config.scss';
+@import '../../../assets/scss/core/mixin.scss';
+
+.tab {
+    transition: background 120ms ease-in 0s;
+
+    &:hover {
+        background: rgba(55, 53, 47, 0.08);
+        transition: background 120ms ease-in 0s;
+    }
+}
+
+
+.title {
+    border-bottom: 2px solid transparent;
+    font-size: 14px;
+}
+
+.emoji {
+    font-size: 26px;
+    line-height: 1;
+
+    @include respond-above($break__large) {
+        font-size: 42px;
+    }
+}
+
+.active {
+    border-color: black;
+}
