@@ -3,6 +3,7 @@ import Modal from "react-modal";
 
 import { Title, Text } from "../Type";
 import Wrap from "../Wrap";
+import ModalContent from "../ModalContent";
 
 import styles from "./index.module.scss";
 
@@ -106,8 +107,7 @@ function List({ data }) {
                 onRequestClose={closeModal}
                 contentLabel="Example Modal"
             >
-                <h2>{activeTemplate.title}</h2>
-                <p>{activeTemplate.author}</p>
+                <ModalContent data={activeTemplate} />
                 <button onClick={closeModal}>close</button>
             </Modal>
         </div>
