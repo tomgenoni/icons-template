@@ -41,7 +41,7 @@ function App() {
 
     // Filters on title of template only.
     if (query !== "") {
-        filteredData = JSON.parse(JSON.stringify(filteredData)).filter(
+        filteredData = filteredData.filter(
             (category) =>
                 (category.sections = category.sections.filter(
                     (section) =>
