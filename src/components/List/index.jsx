@@ -29,10 +29,10 @@ function List({ data }) {
 
     return (
         <div>
-            {data.map((category, i) => (
+            {data.map((category) => (
                 <div key={category.id} className="mb3">
                     <Wrap size="xwide">
-                        <div className="flex mb3">
+                        <div className="flex mb4">
                             <div className={`flex-1 ${styles.border}`}></div>
                             <Title
                                 className="tc relative ph3"
@@ -60,45 +60,52 @@ function List({ data }) {
                                             {section.title}
                                         </Title>
                                     )}
-                                <ul className="grid grid-wide">
-                                    {section.templates.map((template, i) => (
-                                        <li key={i} className="m_col-6 l_col-4">
-                                            <div
-                                                className={`mb4 ${styles.template}`}
-                                                role="button"
-                                                onClick={() =>
-                                                    handleTemplateClick(
-                                                        template
-                                                    )
-                                                }
-                                            >
-                                                <div className="flex">
-                                                    <div className="w4 h4 bg-red mr3 flex-none br2">
-                                                        x
-                                                    </div>
-                                                    <div className="db">
-                                                        <Text
-                                                            size={7}
-                                                            className="fw5"
-                                                        >
-                                                            {template.title}
-                                                        </Text>
-                                                        <Text
-                                                            size={7}
-                                                            className="black-300"
-                                                        >
-                                                            {
+                                {section.templates.length > 0 && (
+                                    <ul className="grid grid-wide mb3">
+                                        {section.templates.map(
+                                            (template, i) => (
+                                                <li
+                                                    key={i}
+                                                    className="m_col-6 l_col-4"
+                                                >
+                                                    <div
+                                                        className="mb3 m_mb4 cursor-pointer"
+                                                        role="button"
+                                                        onClick={() =>
+                                                            handleTemplateClick(
                                                                 template
-                                                                    .description
-                                                                    .short
-                                                            }
-                                                        </Text>
+                                                            )
+                                                        }
+                                                    >
+                                                        <div className="flex">
+                                                            <div className="w4 h4 bg-gray-300 mr3 flex-none br2"></div>
+                                                            <div className="db">
+                                                                <Text
+                                                                    size={7}
+                                                                    className="fw5"
+                                                                >
+                                                                    {
+                                                                        template.title
+                                                                    }
+                                                                </Text>
+                                                                <Text
+                                                                    size={7}
+                                                                    className="black-300"
+                                                                >
+                                                                    {
+                                                                        template
+                                                                            .description
+                                                                            .short
+                                                                    }
+                                                                </Text>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    ))}
-                                </ul>
+                                                </li>
+                                            )
+                                        )}
+                                    </ul>
+                                )}
                             </>
                         </Wrap>
                     ))}

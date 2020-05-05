@@ -66,7 +66,7 @@ function App() {
                         subtitle="Get started with templates to help organize your work and your life."
                     />
                 </div>
-                <div className="l_flex l_items-center l_justify-center mb5">
+                <div className="l_flex l_items-center l_justify-center mb6">
                     <Tabs
                         activeTab={activeTab}
                         setActiveTab={setActiveTab}

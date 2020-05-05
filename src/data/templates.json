@@ -1,91 +1,260 @@
 [{
-    "title": "Meeting notes",
-    "type": "foo",
+    "title": "Remote standups",
+    "type": "list",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "Daily check-in for detailing and recording work.",
+        "long": "Use this template to keep everyone at your company updated on what people are doing right now. Each team can create a new page for members to say what they did yesterday and plan to do today."
     },
     "tags": [{
-            "primary": "Remote",
-            "secondary": "Tools"
-        },
-        {
-            "primary": "Work",
-            "secondary": "Students"
-        }
-    ]
+        "primary": "Remote",
+        "secondary": ""
+    }]
 }, {
-    "title": "Club Homepage",
-    "type": "foo",
+    "title": "Quick design feedback",
+    "type": "text",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "Share you thoughts and designs with your team.",
+        "long": "Use this template to quickly share your designs with teammates. Use the `Invite a Person` button in the `Share` menu at the top right of the page to share with specific collaborators, or turn on `Workspace Access` to share with your entire team."
+    },
+    "tags": [{
+        "primary": "Remote",
+        "secondary": ""
+    }, {
+        "primary": "Work",
+        "secondary": "Designers"
+    }]
+}, {
+    "title": "Remote all-hands meeting",
+    "type": "list",
+    "author": "Notion",
+    "description": {
+        "short": "Create an agenda to keep remote meetings on track.",
+        "long": "All-hands meetings are especially tricky with many people connecting virtually. It helps to share your screen with an agenda that you can move through chronologically. That way, everyone stays focused and gets fuller context than if they were just listening to someone speak."
+    },
+    "tags": [{
+        "primary": "Remote",
+        "secondary": ""
+    }]
+}, {
+    "title": "Contingency planning",
+    "type": "list",
+    "author": "Notion",
+    "description": {
+        "short": "Track your company project through this difficult time.",
+        "long": "We used this to come up with a contingency plan as a result of the COVID outbreak. It's helped us make some meaningful financial decisions."
     },
     "tags": [{
         "primary": "COVID-19",
-        "secondary": "Tools"
+        "secondary": ""
     }]
 }, {
-    "title": "Homework assignment",
-    "type": "foo",
+    "title": "Neighbor support",
+    "type": "calendar",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "Help those in the community that may need it.",
+        "long": "This template can be used to track neighbors who need support and folks who can provide care. Instructions are included in the template."
     },
     "tags": [{
-        "primary": "Education",
-        "secondary": "Teachers"
+        "primary": "COVID-19",
+        "secondary": ""
     }]
 }, {
-    "title": "Quiz",
-    "type": "foo",
+    "title": "Is COVID-19 RIP? Not yet...",
+    "type": "links",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "On overview of the virus, an embedded tracker and statistics.",
+        "long": "Being a coronavirus, it seems like it wouldn't have long-term effects since it cannot adhere itself to human DNA (like HIV). That being said, a severe case can affect lungs and kidneys, just like any other severe case of respiratory diseases."
     },
     "tags": [{
-        "primary": "Education",
-        "secondary": "Teachers"
+        "primary": "COVID-19",
+        "secondary": ""
     }]
 }, {
-    "title": "Puzzle tracker",
-    "type": "foo",
+    "title": "Docs",
+    "type": "board",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "Collect your specs and architecture ideas.",
+        "long": "Use this template to organize documents like technical specs, architecture overviews, and project kickoff notes. Healthy team communication is all about transparency and making as much information available asynchronously as possible. Use this database to immediately understand who created documents, when, what type they are, and how to use them."
     },
     "tags": [{
-        "primary": "Life",
-        "secondary": "Hobbies"
+        "primary": "Work",
+        "secondary": "Engineers"
     }]
 }, {
-    "title": "Grocery list",
-    "type": "foo",
+    "title": "Engineering wiki",
+    "type": "text",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "Make company knowledge easily available to your team members.",
+        "long": "Keep institutional knowledge for your engineering team all in one accessible place: guides and processes, instructions for the tools you use, questions for interviewing candidates, etc. Notion is so easy to edit that anyone can easily contribute or make changes, keeping your documentation fresh and useful."
+    },
+    "tags": [{
+        "primary": "Work",
+        "secondary": "Engineers"
+    }]
+}, {
+    "title": "Roadmap",
+    "type": "board",
+    "author": "Notion",
+    "description": {
+        "short": "Track projects across your team",
+        "long": "Use this template to track projects across your team with Epics, Sprints, Tasks, and Bugs."
+    },
+    "tags": [{
+        "primary": "Work",
+        "secondary": "Engineers"
+    }]
+}, {
+    "title": "Design tasks",
+    "type": "board",
+    "author": "Notion",
+    "description": {
+        "short": "Add your work and update your status.",
+        "long": "Use this template to track the status of day-to-day design tasks. Tasks are assigned to one or more people and can include priority and due date"
+    },
+    "tags": [{
+        "primary": "Work",
+        "secondary": "Designers"
+    }]
+}, {
+    "title": "User research database",
+    "type": "table",
+    "author": "Notion",
+    "description": {
+        "short": "Schedule and track the status of user research.",
+        "long": "Use this template to schedule and track the status of user research"
+    },
+    "tags": [{
+        "primary": "Work",
+        "secondary": "Designers"
+    }]
+}, {
+    "title": "Design system",
+    "type": "links",
+    "author": "Notion",
+    "description": {
+        "short": "Catalog the assets that make up your design system.",
+        "long": "A design system is a great way to keep everyone aligned. Use this template to document design patterns, assets, and brand. Make assets downloadable for anyone on your team"
+    },
+    "tags": [{
+        "primary": "Work",
+        "secondary": "Designers"
+    }]
+}, {
+    "title": "Personal finances",
+    "type": "board",
+    "author": "Notion",
+    "description": {
+        "short": "Track where you’re spending your money.",
+        "long": "My 'Finances' template includes a categorized Kanban board of my expenses, debts, and extra expenses and Cash Flow Calendar so I can visually see when I have money coming in and out."
+    },
+    "tags": [{
+        "primary": "Home",
+        "secondary": "Finance"
+    }]
+}, {
+    "title": "Investment tracker",
+    "type": "table",
+    "author": "Notion",
+    "description": {
+        "short": "Keep track of your investments and returns.",
+        "long": "I created these two tables to keep track of my invested money, and understand my current liquid value, total growth, average yearly growth, etc. It’s often difficult to keep track of invested money, and it can be a challenge to know which investments are giving you the best bang for your buck. I've included a quick tutorial inside the template to help you get started."
+    },
+    "tags": [{
+        "primary": "Home",
+        "secondary": "Finance"
+    }]
+}, {
+    "title": "Subscription tracker",
+    "type": "table",
+    "author": "Notion",
+    "description": {
+        "short": "Stay on top of all the subsciptions in your life.",
+        "long": "20+ active subscriptions have made it really difficult to stay on top of my finances, so I created a little Subscription Tracker with monthly/yearly cost overviews and renewal alerts."
+    },
+    "tags": [{
+        "primary": "Home",
+        "secondary": "Finance"
+    }]
+}, {
+    "title": "Recepie box",
+    "type": "calendar",
+    "author": "Notion",
+    "description": {
+        "short": "Rate your favorite recipies and plan new ones.",
+        "long": "This Recipe Box serves as an online database for recipes I've stumbled across and wanted to keep over the years. I can sort by category (including 'Favorites' or 'Haven't Tried') and easily copy & paste the Shopping List into my separate Groceries page to simplify my grocery shopping process."
     },
     "tags": [{
         "primary": "Home",
         "secondary": "Food"
     }]
 }, {
-    "title": "Lesson Plan",
-    "type": "foo",
+    "title": "Food prep",
+    "type": "table",
     "author": "Notion",
     "description": {
-        "short": "this is the short",
-        "long": "She was so deeply imbedded in my consciousness that for the first year of school I seem to have believed that each of my teachers was my mother in disguise."
+        "short": "Help yourself stay organized at the grocery store.",
+        "long": "I use this template as a database to store all of my frequently bought groceries. I add the price, frequency bought, and a check box (along with many other fields) that indicates I need that to buy that item. I then can switch a view that filters to only the items with a checked box where I can calculate the amount of money I am going to spend when I go to the store."
     },
     "tags": [{
-        "primary": "Education",
-        "secondary": "Teachers"
+        "primary": "Home",
+        "secondary": "Food"
+    }]
+}, {
+    "title": "Food diary",
+    "type": "board",
+    "author": "Notion",
+    "description": {
+        "short": "Help narrow down what your body doesn't like.",
+        "long": "This template is for me to record what I've eaten, to track and check for patterns in what food is causing my stomach to feel uncomfortable. I'm loving this layout, so I thought I should share with others!"
+    },
+    "tags": [{
+        "primary": "Home",
+        "secondary": "Food"
+    }, {
+        "primary": "Life",
+        "secondary": "Health"
+    }]
+}, {
+    "title": "Pokédex",
+    "type": "table",
+    "author": "Notion",
+    "description": {
+        "short": "Big database for all types of Pokémon.",
+        "long": "This started out as an experiment around importing data into Notion and was an excuse to play around with the new gallery card improvements (which made this possible in the first place). After the initial database was there, it was very easy to create a wide variety of linked databases with various filters and sorting, which led to the dashboard to organize multiple views."
+    },
+    "tags": [{
+        "primary": "Life",
+        "secondary": "Hobbies"
+    }]
+}, {
+    "title": "RPG campaign",
+    "type": "table",
+    "author": "Notion",
+    "description": {
+        "short": "Facilitate your gaming.",
+        "long": "This template can be used to manage tabletop roleplaying game campaigns, including structured setups for easier searching and filtering."
+    },
+    "tags": [{
+        "primary": "Life",
+        "secondary": "Hobbies"
+    }]
+}, {
+    "title": "Board games",
+    "type": "links",
+    "author": "Notion",
+    "description": {
+        "short": "Rank the board games you love and track ones yet to play.",
+        "long": "I'm an avid board gamer, so I decided to put all my games into a spreadsheet. I can create tons of useful views with the powerful filter controls, such as '5-player Eurogames' or 'Most complex' or 'Never played.' I also eventually added games I want to buy to the list so that I could send a handy wishlist to friends and family."
+    },
+    "tags": [{
+        "primary": "Life",
+        "secondary": "Hobbies"
     }]
 }, {
     "title": "Cornell notes system",
@@ -100,6 +269,18 @@
         "secondary": "Students"
     }]
 }, {
+    "title": "Classroom home",
+    "type": "text",
+    "author": "Notion",
+    "description": {
+        "short": "Provide a home base for your student resources.",
+        "long": "Give your students one source of truth for class information, course materials, assignments, announcements, scheduling and more. Editing this web page is as easy as writing any document. ."
+    },
+    "tags": [{
+        "primary": "Education",
+        "secondary": "Teachers"
+    }]
+}, {
     "title": "Lesson plans",
     "type": "board",
     "author": "Notion",
@@ -112,6 +293,18 @@
         "secondary": "Teachers"
     }]
 }, {
+    "title": "Thesis planning",
+    "type": "calendar",
+    "author": "Notion",
+    "description": {
+        "short": "Plan your work and stay organized for the long haul.",
+        "long": "Make this your homepage for planning and writing a thesis or dissertation. It can help you brainstorm and evaluate potential topics. Keep a full list of sources bundled neatly with your notes on each one (all quickly searchable). And stay on track with a timeline of due dates, where you can also draft all your content — all in the same space."
+    },
+    "tags": [{
+        "primary": "Education",
+        "secondary": "Students"
+    }]
+}, {
     "title": "Syllabus",
     "type": "text",
     "author": "Notion",
@@ -122,5 +315,53 @@
     "tags": [{
         "primary": "Education",
         "secondary": "Teachers"
+    }]
+}, {
+    "title": "Habit tracker",
+    "type": "links",
+    "author": "Notion",
+    "description": {
+        "short": "Stay motived each day to stay healthy.",
+        "long": "I use this template to track my daily habits. I love using this tool because it helps me stay motivated and track my progress. It also gives me a high-level view at the end of the month of how well I'm doing. When I reach 90%+ completion on all habits, I know I have the bandwidth to either start a new habit or double down on an existing habit."
+    },
+    "tags": [{
+        "primary": "Life",
+        "secondary": "Health"
+    }]
+}, {
+    "title": "Beauty & skincare tracker",
+    "type": "table",
+    "author": "Notion",
+    "description": {
+        "short": "Track your liked and disliked beauty care products.",
+        "long": "This template helps me keep track of all the beauty and skincare products I own and allows me to rate them. It keeps me from potentially buying the same products because I forget that I already own them or I forget that I decided I don't like them. With this template I've been able to organize my makeup and skincare stash and weed out products that I don't like and have no use of while making sure to keep (and buy more of!) products that I like and use often."
+    },
+    "tags": [{
+        "primary": "Life",
+        "secondary": "Health"
+    }]
+}, {
+    "title": "Reading list",
+    "type": "links",
+    "author": "Notion",
+    "description": {
+        "short": "Track all sorts of media for later.",
+        "long": "The modern day reading list includes more than just books. We've created a dashboard to help you track all of the articles, videos, podcasts, blog posts, Twitter threads, and — yes, books — you want to read now or later."
+    },
+    "tags": [{
+        "primary": "Education",
+        "secondary": "Students"
+    }]
+}, {
+    "title": "Workouts",
+    "type": "table",
+    "author": "Notion",
+    "description": {
+        "short": "Keep track of your exersize sessions.",
+        "long": "A database to track all training sessions, including break times, durations, etc. Every workout is a page with meta information on the workout session, including the program, date, break time, duration of the workout and the difficulty level. Every workout contains another table including the individual workouts with reps, sets, and weights."
+    },
+    "tags": [{
+        "primary": "Life",
+        "secondary": "Health"
     }]
 }]
