@@ -19,14 +19,8 @@
         "webfontloader": "^1.6.28"
     },
     "scripts": {
-        "build:scss": "node-sass src/assets/scss/root.scss tmp/root.css",
-        "build:postcss": "postcss tmp/root.css --no-map --use css-mqpacker -o src/assets/css/root.css",
-        "watch:scss": "node-sass src/assets/scss/root.scss tmp/root.css -w",
-        "watch:postcss": "postcss tmp/root.css --no-map --use css-mqpacker -o src/assets/css/root.css -w",
-        "start": "npm-run-all -p watch:scss watch:postcss start-js",
-        "build": "npm-run-all -p build:scss build:postcss build-js",
-        "start-js": "react-scripts start",
-        "build-js": "react-scripts build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },

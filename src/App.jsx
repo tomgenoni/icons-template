@@ -11,7 +11,7 @@ import templates from "./data/templates";
 import combinedData from "./data/combinedData";
 
 // // Global SCSS
-import "./assets/css/root.css";
+import "./assets/scss/root.scss";
 
 // Components
 import Header from "./components/Header/";
@@ -21,6 +21,9 @@ import Search from "./components/Search/";
 import List from "./components/List/";
 import Wrap from "./components/Wrap/";
 import Footer from "./components/Footer/";
+
+// // Global SCSS
+import "./assets/scss/atomic.scss";
 
 function App() {
     // State ------------------------

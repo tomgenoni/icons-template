@@ -87,7 +87,7 @@ function Footer() {
                     </div>
                 ))}
 
-                <div className="l_col-4 mb5 l_order-0">
+                <div className="l_col-4 mb6 l_mb5 l_order-0">
                     <div className="ml2 l_ml0">
                         <div className="flex items-center mb3">
                             <Logo
