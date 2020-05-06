@@ -1,7 +1,7 @@
+@import '../../assets/scss/config.scss';
+
 .input {
-    border: none;
-    box-shadow: none;
-    background: #fff;
+    border: 1px solid $color__gray-300;
     width: 100%;
     font-size: 15px;
     line-height: 26px;
