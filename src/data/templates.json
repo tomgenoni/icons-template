@@ -1,5 +1,6 @@
 [{
     "title": "Remote standups",
+    "date": "April 12, 2020",
     "type": "list",
     "author": "Notion",
     "description": {
@@ -12,8 +13,9 @@
     }]
 }, {
     "title": "Quick design feedback",
+    "date": "April 12, 2020",
     "type": "text",
-    "author": "Notion",
+    "author": "Kyle Jones",
     "description": {
         "short": "Share you thoughts and designs with your team.",
         "long": "Use this template to quickly share your designs with teammates. Use the `Invite a Person` button in the `Share` menu at the top right of the page to share with specific collaborators, or turn on `Workspace Access` to share with your entire team."
@@ -27,6 +29,7 @@
     }]
 }, {
     "title": "Remote all-hands meeting",
+    "date": "April 12, 2020",
     "type": "list",
     "author": "Notion",
     "description": {
@@ -39,6 +42,7 @@
     }]
 }, {
     "title": "Contingency planning",
+    "date": "April 12, 2020",
     "type": "list",
     "author": "Notion",
     "description": {
@@ -51,6 +55,7 @@
     }]
 }, {
     "title": "Neighbor support",
+    "date": "April 12, 2020",
     "type": "calendar",
     "author": "Notion",
     "description": {
@@ -63,6 +68,7 @@
     }]
 }, {
     "title": "Is COVID-19 RIP? Not yet...",
+    "date": "April 12, 2020",
     "type": "links",
     "author": "Notion",
     "description": {
@@ -75,6 +81,7 @@
     }]
 }, {
     "title": "Docs",
+    "date": "April 12, 2020",
     "type": "board",
     "author": "Notion",
     "description": {
@@ -87,6 +94,7 @@
     }]
 }, {
     "title": "Engineering wiki",
+    "date": "April 12, 2020",
     "type": "text",
     "author": "Notion",
     "description": {
@@ -99,6 +107,7 @@
     }]
 }, {
     "title": "Roadmap",
+    "date": "April 12, 2020",
     "type": "board",
     "author": "Notion",
     "description": {
@@ -111,6 +120,7 @@
     }]
 }, {
     "title": "Design tasks",
+    "date": "April 12, 2020",
     "type": "board",
     "author": "Notion",
     "description": {
@@ -123,6 +133,7 @@
     }]
 }, {
     "title": "User research database",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {
@@ -135,6 +146,7 @@
     }]
 }, {
     "title": "Design system",
+    "date": "April 12, 2020",
     "type": "links",
     "author": "Notion",
     "description": {
@@ -147,6 +159,7 @@
     }]
 }, {
     "title": "Personal finances",
+    "date": "April 12, 2020",
     "type": "board",
     "author": "Notion",
     "description": {
@@ -159,6 +172,7 @@
     }]
 }, {
     "title": "Investment tracker",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {
@@ -171,6 +185,7 @@
     }]
 }, {
     "title": "Subscription tracker",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {
@@ -183,6 +198,7 @@
     }]
 }, {
     "title": "Recepie box",
+    "date": "April 12, 2020",
     "type": "calendar",
     "author": "Notion",
     "description": {
@@ -195,6 +211,7 @@
     }]
 }, {
     "title": "Food prep",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {
@@ -207,6 +224,7 @@
     }]
 }, {
     "title": "Food diary",
+    "date": "April 12, 2020",
     "type": "board",
     "author": "Notion",
     "description": {
@@ -222,6 +240,7 @@
     }]
 }, {
     "title": "Pokédex",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {
@@ -234,6 +253,7 @@
     }]
 }, {
     "title": "RPG campaign",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {
@@ -246,6 +266,7 @@
     }]
 }, {
     "title": "Board games",
+    "date": "April 12, 2020",
     "type": "links",
     "author": "Notion",
     "description": {
@@ -258,6 +279,7 @@
     }]
 }, {
     "title": "Cornell notes system",
+    "date": "April 12, 2020",
     "type": "text",
     "author": "Notion",
     "description": {
@@ -270,6 +292,7 @@
     }]
 }, {
     "title": "Classroom home",
+    "date": "April 12, 2020",
     "type": "text",
     "author": "Notion",
     "description": {
@@ -282,6 +305,7 @@
     }]
 }, {
     "title": "Lesson plans",
+    "date": "April 12, 2020",
     "type": "board",
     "author": "Notion",
     "description": {
@@ -294,6 +318,7 @@
     }]
 }, {
     "title": "Thesis planning",
+    "date": "April 12, 2020",
     "type": "calendar",
     "author": "Notion",
     "description": {
@@ -306,6 +331,7 @@
     }]
 }, {
     "title": "Syllabus",
+    "date": "April 12, 2020",
     "type": "text",
     "author": "Notion",
     "description": {
@@ -318,6 +344,7 @@
     }]
 }, {
     "title": "Habit tracker",
+    "date": "April 12, 2020",
     "type": "links",
     "author": "Notion",
     "description": {
@@ -330,6 +357,7 @@
     }]
 }, {
     "title": "Beauty & skincare tracker",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {
@@ -342,6 +370,7 @@
     }]
 }, {
     "title": "Reading list",
+    "date": "April 12, 2020",
     "type": "links",
     "author": "Notion",
     "description": {
@@ -354,6 +383,7 @@
     }]
 }, {
     "title": "Workouts",
+    "date": "April 12, 2020",
     "type": "table",
     "author": "Notion",
     "description": {

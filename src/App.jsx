@@ -67,7 +67,7 @@ function App() {
         <div>
             <Wrap size="wide">
                 <Header />
-                <div className="mb4 mt6">
+                <div className="mb5 mt6">
                     <Hero
                         imgPath="/asset/i/illu.png"
                         title="Notion for inspiration"
