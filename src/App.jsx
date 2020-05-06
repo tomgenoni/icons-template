@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 
+import { Text } from "./components/Type";
+import Link from "./components/Link";
+
+import styles from "./index.module.scss";
+
 // Data imports of json and function to combine it
 import categories from "./data/categories";
 import templates from "./data/templates";
@@ -65,6 +70,19 @@ function App() {
                         title="Notion for inspiration"
                         subtitle="Get started with templates to help organize your work and your life."
                     />
+                    <div className="tc pt2">
+                        <Text size={7} elementType="span">
+                            <Link to="https://notion.so/">
+                                Duplicate a template
+                            </Link>
+                        </Text>
+                        <span className="ph2 gray">·</span>
+                        <Text size={7} elementType="span">
+                            <Link to="https://notion.so/">
+                                Share a template
+                            </Link>
+                        </Text>
+                    </div>
                 </div>
                 <div className="l_flex l_items-center l_justify-center mb6">
                     <Tabs
@@ -72,19 +90,27 @@ function App() {
                         setActiveTab={setActiveTab}
                         categories={categories}
                     />
-                    <div className="l_ml6 mt3 l_mt0">
-                        <Search query={query} handleQuery={handleQuery} />
+                    <div
+                        className={`l_ml6 mt3 l_mt0 l_w6 ${styles.searchWrap}`}
+                    >
+                        <Search
+                            query={query}
+                            handleQuery={handleQuery}
+                            placeholder="Filter templates"
+                        />
                     </div>
                 </div>
             </Wrap>
-            <div className="mb7">
+            <div className="mb6 l_mb7">
                 <List data={filteredData} />
             </div>
             <Wrap size="xwide">
-                <hr className="bb b-gray-300 mb6" />
+                <hr className="bb b-gray-300 dn l_db" />
             </Wrap>
             <Wrap size="wide">
-                <Footer />
+                <div className="l_pt6 mb5">
+                    <Footer />
+                </div>
             </Wrap>
         </div>
     );

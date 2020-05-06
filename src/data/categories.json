@@ -5,7 +5,8 @@
 }, {
     "title": "COVID-19",
     "emoji": "🏥",
-    "id": 1
+    "id": 1,
+    "divider": true
 }, {
     "title": "Work",
     "emoji": "📎",

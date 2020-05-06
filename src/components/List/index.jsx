@@ -1,15 +1,32 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 
+import styles from "./index.module.scss";
+
+import { ReactComponent as IconCalendar } from "../../assets/img/icons/calendar.svg";
+import { ReactComponent as IconList } from "../../assets/img/icons/list.svg";
+import { ReactComponent as IconBoard } from "../../assets/img/icons/board.svg";
+import { ReactComponent as IconText } from "../../assets/img/icons/text.svg";
+import { ReactComponent as IconTable } from "../../assets/img/icons/table.svg";
+import { ReactComponent as IconLinks } from "../../assets/img/icons/links.svg";
+
 import { Title, Text } from "../Type";
 import Wrap from "../Wrap";
 import ModalContent from "../ModalContent";
 
-import styles from "./index.module.scss";
-
 Modal.setAppElement("#root");
 
 function List({ data }) {
+    const iconClass = `w4 h4 br2 flex-none ${styles.icon}`;
+
+    const templateIcons = {
+        calendar: <IconCalendar className={iconClass} />,
+        list: <IconList className={iconClass} />,
+        board: <IconBoard className={iconClass} />,
+        text: <IconText className={iconClass} />,
+        table: <IconTable className={iconClass} />,
+        links: <IconLinks className={iconClass} />,
+    };
     // Set state of active template to pass to modal
     const [activeTemplate, setActiveTemplate] = useState({});
     const handleTemplateClick = (templateData) => {
@@ -30,7 +47,7 @@ function List({ data }) {
     return (
         <div>
             {data.map((category) => (
-                <div key={category.id} className="mb3">
+                <div key={category.id} className="mb3 l_mb5">
                     <Wrap size="xwide">
                         <div className="flex mb4">
                             <div className={`flex-1 ${styles.border}`}></div>
@@ -78,8 +95,13 @@ function List({ data }) {
                                                         }
                                                     >
                                                         <div className="flex">
-                                                            <div className="w4 h4 bg-gray-300 mr3 flex-none br2"></div>
-                                                            <div className="db">
+                                                            {
+                                                                templateIcons[
+                                                                    template
+                                                                        .type
+                                                                ]
+                                                            }
+                                                            <div className="ml3">
                                                                 <Text
                                                                     size={7}
                                                                     className="fw5"

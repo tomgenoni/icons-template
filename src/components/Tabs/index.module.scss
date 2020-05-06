@@ -1,0 +1,10 @@
+@import '../../assets/scss/config.scss';
+@import '../../assets/scss/core/mixin.scss';
+
+.divider {
+    height: 70px;
+
+    @include respond-above($break__large) {
+        height: 100px;
+    }
+}

@@ -1,0 +1,9 @@
+@import './assets/scss/config.scss';
+@import './assets/scss/core/mixin.scss';
+
+@include respond-above($break__large) {
+    .searchWrap {
+        position: relative;
+        top: 11px;
+    }
+}
