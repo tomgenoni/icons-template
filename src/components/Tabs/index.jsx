@@ -1,4 +1,6 @@
 import React from "react";
+import { v4 as uuidv4 } from "uuid";
+
 import Tab from "./Tab";
 
 import styles from "./index.module.scss";
@@ -13,7 +15,7 @@ function Tabs({ activeTab, setActiveTab, categories }) {
                 activeTab={activeTab}
             />
             {categories.map((category) => (
-                <>
+                <React.Fragment key={uuidv4()}>
                     <Tab
                         key={category.id}
                         onClick={() => setActiveTab(category.title)}
@@ -21,12 +23,8 @@ function Tabs({ activeTab, setActiveTab, categories }) {
                         title={category.title}
                         activeTab={activeTab}
                     />
-                    {category.divider && (
-                        <div
-                            className={`bl b-gray-300 ph1 ml1 ${styles.divider}`}
-                        ></div>
-                    )}
-                </>
+                    {category.divider && <div className={styles.divider}></div>}
+                </React.Fragment>
             ))}
         </div>
     );
