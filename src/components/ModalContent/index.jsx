@@ -1,5 +1,6 @@
 import React from "react";
 import { Title, Text } from "../Type";
+import Button from "../Button";
 import { ReactComponent as Logo } from "../../assets/img/logo.svg";
 
 function ModalContent({ data }) {
@@ -14,7 +15,7 @@ function ModalContent({ data }) {
                 </Text>
             </div>
             <div className="ph6 pv5">
-                <div className="grid grid-wide">
+                <div className="grid grid-wide mb4">
                     <div className="l_col-7 mb4 l_mb0">
                         <Title size={7} headingLevel={3}>
                             Descripton
@@ -46,8 +47,9 @@ function ModalContent({ data }) {
                         </div>
                     </div>
                 </div>
+                <Button>Duplicate template</Button>
             </div>
-            <div className="ph6">
+            <div className="ph6 pb6">
                 <img
                     src="asset/i/template.png"
                     alt="Template example"
