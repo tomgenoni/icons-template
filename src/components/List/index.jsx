@@ -53,7 +53,7 @@ function List({ data }) {
                             <div className={`flex-1 ${styles.border}`}></div>
                             <Title
                                 className="tc relative ph3"
-                                size={5}
+                                size={4}
                                 headingLevel={2}
                             >
                                 <span className="mr1">{category.emoji}</span>
