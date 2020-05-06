@@ -1,8 +1,8 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
+
 import { Title, Text } from "../Type";
 import Link from "../Link";
-
 import { ReactComponent as Logo } from "../../assets/img/logo.svg";
 
 function Footer() {

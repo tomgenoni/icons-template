@@ -154,7 +154,7 @@ function List({ data }) {
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
-                contentLabel="Example Modal"
+                contentLabel="Template Modal"
                 style={modalStyles}
             >
                 <ModalContent data={activeTemplate} />
